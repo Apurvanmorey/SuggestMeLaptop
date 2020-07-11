@@ -65,7 +65,7 @@ a:hover{
     opacity: 1;
 }
 .data-2{
-    background: url(/bg-2.jpg)  no-repeat;
+    background: url(bg-2.jpg)  no-repeat;
     background-size: cover;
     opacity: 1;
 }
