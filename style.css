@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d6d6d6;
+    height: 100%;
+}
+a{
+    color: #8a8a8a;
+    text-decoration: none;
+}
+.link{
+    color: #8a8a8a;
+    text-decoration: none;
+}
+.link:hover{
+    color: #fff;
+    text-decoration: none ;
+}
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.text-dark{
+    color: #000;
+}
+
+.navbar-brand{
+    font-family: 'Rock Salt', cursive;
+    font-size: x-large;
+    font-weight: 400;
+}
+.active{
+    color: #000;
+    border-bottom: 1px #8a8a8a solid;
+}
+.box{
+    background: url(https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) 50% 44% no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    height: 300px;
+    width: auto;
+}
+.box2{
+    background: url(https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    height: 91.5vh;
+    width: 100%;
+}
+.main{
+    background-color: #ffffff;
+    margin: 0;
+}
+.data{
+   
+    border-radius: 15px;
+    margin-top: 25px;
+    height: 300px;
+}
+.data-1{
+    background: url(https://images.pexels.com/photos/218863/pexels-photo-218863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)  no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.data-2{
+    background: url(/bg-2.jpg)  no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.data-3{
+    background: url(https://images.pexels.com/photos/69432/pexels-photo-69432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) 50% 25% no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.head{
+    padding-top: 100px;
+    padding-right: 40px;
+    
+}
+.head1{
+    padding-top: 220px;
+    padding-right: 40px;
+    
+}
+.para{
+    padding: 30px
+}
+.para2{
+    padding: 25px 50px 30px 50px;
+
+}
+
+.col{
+    margin-bottom: 10px;
+    background-color: #2F363F;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+ 
+  
+  @media only screen and (max-width: 768px) {
+    .para{
+        font-size: 17px;
+    }
+    .para,.para1{
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .head1{
+        padding: 20px;
+        font-size: 26px;
+        padding-top: 30%;
+    
+      }
+    .box{
+        height: 220px;
+    }
+  }
+
